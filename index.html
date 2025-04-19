@@ -47,7 +47,30 @@
   <a href="https://allcalc.ru/node/1870" data-weight="450px" data-height="400px">Сколько дней осталось до лета - allcalc</a>
   <script src="https://allcalc.ru/widgets/script.js"></script>
 </div>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анимация перехода цветов</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
 
+        .color-box {
+            width: 200px;
+            height: 200px;
+            background-color: #3498db; /* Начальный цвет */
+            transition: background-color 0.5s ease; /* Параметры анимации */
+        }
+
+        .color-box:hover {
+            background-color: #e74c3c; /* Цвет при наведении */
+        }
+    </style>
 <header class="header">
   <div class="overlay"></div>
   <div class="container">
