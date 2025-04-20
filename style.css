@@ -1,0 +1,65 @@
+.navbar{
+    background: #546464;
+    animation: infinite;
+    height: 55px;
+    position: fixed;
+}
+.navbar-brand {
+    justify-content: flex-end;
+    color: #fff;
+}
+.navbar-brand:hover {
+    background-color: #5a5a5a;
+}
+.nav-link , .navbar-brand{
+    color: white;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    background-color: white;
+    color: #f97300;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.navbar-toggler {
+    background: #fff !important;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.bg-dark {
+    background-color: #b6dafd!important;
+}
+.bg-primary {
+    background-color: #ffffff;
+}
+.header {
+    background-image: url("C:/Users/Admin/Desktop/web/1page/img/dried-leaves-gray-blank-background_53876-102451.avif");
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+}
+
+.description{
+    color: #8d8686;
+}
+.description p{
+    color: rgba(230, 89, 89, 0.4);
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+    justify-content: center;
+}
+.description button {
+    border: 1px solid #242221;
+    background: #7e7676;
+    color: #ffffff;
+}
+id-of-the-section {
+    scrollbar-width: 100px;
+}
