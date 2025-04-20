@@ -1,6 +1,0 @@
-c Users/Admin/Desktop/web/1page/img
-git add .
-git commit "add folder with pictures"
-git push
-# or, if this is your first push:
-git push -u origin master
